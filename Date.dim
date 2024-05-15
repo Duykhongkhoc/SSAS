@@ -1,0 +1,421 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="967c9f64-417b-404e-b9e6-60ba77704e18" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Date</ID>
+  <Name>Date</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2957" scrolltop="-3895" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="8954" y="11726" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Date" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="3027" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b0000d30b0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DIM_DATE" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-2957</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-3895</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="110">
+            <Shape Id="Id Date" Expanded="false">
+              <Attributes>
+                <Attribute Id="Id Date" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="CC Hour" Expanded="false">
+              <Attributes>
+                <Attribute Id="CC Hour" />
+              </Attributes>
+              <Position x="162" y="20" />
+            </Shape>
+            <Shape Id="CC Date" Expanded="false">
+              <Attributes>
+                <Attribute Id="CC Date" />
+              </Attributes>
+              <Position x="305" y="20" />
+            </Shape>
+            <Shape Id="CC Month" Expanded="false">
+              <Attributes>
+                <Attribute Id="CC Month" />
+              </Attributes>
+              <Position x="447" y="20" />
+            </Shape>
+            <Shape Id="CC Quarter" Expanded="false">
+              <Attributes>
+                <Attribute Id="CC Quarter" />
+              </Attributes>
+              <Position x="590" y="20" />
+            </Shape>
+            <Shape Id="CC Year" Expanded="false">
+              <Attributes>
+                <Attribute Id="CC Year" />
+              </Attributes>
+              <Position x="732" y="20" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="d9ca3104-3f38-4f4e-b826-19e77bcb324d">
+    <DataSourceViewID>DW CHICAGO CRIME</DataSourceViewID>
+  </Source>
+  <Type>Time</Type>
+  <UnknownMember>Visible</UnknownMember>
+  <ErrorConfiguration dwd:design-time-name="6719cf11-8afa-423f-b565-61f42d360b5a">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="6338e315-769f-4f47-b2be-39108d97d9b2">
+      <ID>Id Date</ID>
+      <Name>Id Date</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="a0684e74-1541-4ecc-8f78-b12e598a5a93">
+          <DataType>Integer</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="08a55cc2-2c30-4ad7-878a-982fde6f14b9">
+            <TableID>dbo_DIM_DATE</TableID>
+            <ColumnID>id_date</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="65442241-26e1-40df-896b-88bbc8ded853">
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="65ca7a9e-2f0a-482a-8311-109ba1b38f85">
+          <TableID>dbo_DIM_DATE</TableID>
+          <ColumnID>CCHour</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="97dbe346-0d6e-4661-9a2c-13bac4c495f0">
+          <AttributeID>CC Hour</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>CC Hour</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyOrdered>false</AttributeHierarchyOrdered>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="7ee98d6d-fa04-430e-b256-78faac32ac8e">
+      <ID>CC Year</ID>
+      <Name>CC Year</Name>
+      <Type>Years</Type>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="84ac1c0c-fa5c-4297-b4ce-4af94694a912">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="25f1a705-29f5-41de-b5ae-85aa49c2f67b">
+            <TableID>dbo_DIM_DATE</TableID>
+            <ColumnID>CCYear</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="d8701876-904f-45fd-9408-98040196f60b">
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="dee4fb39-e95f-4448-a3aa-55651facc876">
+          <TableID>dbo_DIM_DATE</TableID>
+          <ColumnID>CCYear</ColumnID>
+        </Source>
+      </NameColumn>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="4d3c86f4-afd9-4ad3-b458-91f08e716a4b">
+      <ID>CC Quarter</ID>
+      <Name>CC Quarter</Name>
+      <Type>Quarters</Type>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="7dc8523a-9b90-4d83-9adc-c534968c9845">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="4f38c4b7-f8af-4c1e-b6c3-916b48221308">
+            <TableID>dbo_DIM_DATE</TableID>
+            <ColumnID>CCYear</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="8fe791fb-0fc4-478d-bcdf-55dde41e0f7c">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="75fd673b-b0df-45bb-a884-0b8a7569a001">
+            <TableID>dbo_DIM_DATE</TableID>
+            <ColumnID>CCQuarter</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="63466cf8-9562-4926-b159-f9fec6a92e4e">
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="805099e4-6845-42f7-a62b-e0b3ca3aa7e9">
+          <TableID>dbo_DIM_DATE</TableID>
+          <ColumnID>CCQuarter</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="04b6830f-df70-4e8f-bd77-07528fad0b59">
+          <AttributeID>CC Year</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>CC Year</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="b19a01e9-5dd4-4997-8474-42a45417608b">
+      <ID>CC Month</ID>
+      <Name>CC Month</Name>
+      <Type>Months</Type>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="6f61c33c-9a69-4021-a073-5baf0ea647b2">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9733dd6a-df67-4e01-ba44-57d09b900c60">
+            <TableID>dbo_DIM_DATE</TableID>
+            <ColumnID>CCYear</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="e1b52e9c-af1e-4546-a641-dd3c8a07af42">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c93827ee-df67-4e20-b0d2-0903096e0d64">
+            <TableID>dbo_DIM_DATE</TableID>
+            <ColumnID>CCQuarter</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="d24ae893-1d43-4886-a98e-065f9dfb264f">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c544d736-12e1-4b52-8800-c28c8adde74b">
+            <TableID>dbo_DIM_DATE</TableID>
+            <ColumnID>CCMonth</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="1b39daf2-aadd-47af-965a-fa2ef7400a47">
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="9c8ac97e-39e6-48f7-8582-1dbbdda3e8db">
+          <TableID>dbo_DIM_DATE</TableID>
+          <ColumnID>CCMonth</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="52e21439-f297-4510-8f19-24e097638154">
+          <AttributeID>CC Quarter</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>CC Quarter</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="8a676c77-66fa-4981-9f42-585c991ad191">
+      <ID>CC Date</ID>
+      <Name>CC Date</Name>
+      <Type>Date</Type>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="59a16a30-72bc-4a38-a551-c1b67aab401c">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="39fca5f9-db49-4cff-8d2f-a9a34b8cb0b4">
+            <TableID>dbo_DIM_DATE</TableID>
+            <ColumnID>CCDate</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="1fe55703-0596-40c9-bb88-d7a85dc5e4fe">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e6142762-0609-4702-82e0-0ded8dcba86f">
+            <TableID>dbo_DIM_DATE</TableID>
+            <ColumnID>CCHour</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="30fa14e0-66d9-4106-8618-b674196339ba">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="58427336-7fce-47f5-952b-a76ff1ef5c67">
+            <TableID>dbo_DIM_DATE</TableID>
+            <ColumnID>CCYear</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="99f88af2-ca58-454b-92e5-41ffd9e0e6cc">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="2186d962-c41e-4dc1-804a-2323fd068cc4">
+            <TableID>dbo_DIM_DATE</TableID>
+            <ColumnID>CCQuarter</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="b8a167b5-6818-4ef3-9327-e11252759147">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="1134587f-b22b-4f87-84ee-aea7189a0605">
+            <TableID>dbo_DIM_DATE</TableID>
+            <ColumnID>CCMonth</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="491bf8ac-189f-4b29-b548-d24e500f6d1e">
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="80a2cd47-8d99-43a0-8f2e-f4345da72131">
+          <TableID>dbo_DIM_DATE</TableID>
+          <ColumnID>CCDate</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="7d3a0692-0526-4cf8-84ce-6a2ddc8bde59">
+          <AttributeID>CC Month</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>CC Month</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="7424b145-c130-4169-a1e1-0055eb3aa1c8">
+      <ID>CC Hour</ID>
+      <Name>CC Hour</Name>
+      <Type>Hours</Type>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="9ad365fd-92e3-4c8c-8296-1b637bbda379">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="dffa38f1-96a9-4089-8fff-bf8c07546b14">
+            <TableID>dbo_DIM_DATE</TableID>
+            <ColumnID>CCHour</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="a00df0e9-30b9-494f-99af-08a3287b185e">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="460eb7a3-ca9b-4f19-8fad-f7f6edb9e713">
+            <TableID>dbo_DIM_DATE</TableID>
+            <ColumnID>CCYear</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="a7ce744c-2e5a-4ac4-867c-0356cdf7ae09">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ff3a71c5-c8e0-4bd1-a6a2-f0954aa6579c">
+            <TableID>dbo_DIM_DATE</TableID>
+            <ColumnID>CCQuarter</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="3cb527b2-cdc0-414a-b683-c49c996d50bc">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="327cee36-2ad5-4ac5-baeb-fa9b282b0f1e">
+            <TableID>dbo_DIM_DATE</TableID>
+            <ColumnID>CCMonth</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="d700d3f3-5dc3-4960-afc1-04e16625c248">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="1696f369-a36b-46db-b25c-a9ae05dafe0f">
+            <TableID>dbo_DIM_DATE</TableID>
+            <ColumnID>CCDate</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="f3783e53-2b7b-49b3-acc3-bcfb070c4cc3">
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="a8a0887b-b6df-4211-b868-7be85c836d12">
+          <TableID>dbo_DIM_DATE</TableID>
+          <ColumnID>CCHour</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="769698a0-6a4f-4981-8006-76a93840a2eb">
+          <AttributeID>CC Date</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>CC Date</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="277b59e7-4aa3-45ed-9a7a-8d41beffdd29">
+      <ID>Hierarchy</ID>
+      <Name>HDNQY</Name>
+      <Levels>
+        <Level dwd:design-time-name="6056f9ed-f8bc-4806-a6c2-4b3cc70544a7">
+          <ID>CC Year</ID>
+          <Name>CC Year</Name>
+          <SourceAttributeID>CC Year</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="2d7f8d82-2386-4679-a4a1-a5109ad481c4">
+          <ID>CC Quarter</ID>
+          <Name>CC Quarter</Name>
+          <SourceAttributeID>CC Quarter</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="82b17d5a-8242-4b19-8a3d-844f0ccb0057">
+          <ID>CC Month</ID>
+          <Name>CC Month</Name>
+          <SourceAttributeID>CC Month</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="31e56f40-55af-46e9-ae20-6d454c44a96e">
+          <ID>CC Date</ID>
+          <Name>CC Date</Name>
+          <SourceAttributeID>CC Date</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="916275f5-7435-4006-bb63-957ff2fabd23">
+          <ID>CC Hour</ID>
+          <Name>CC Hour</Name>
+          <SourceAttributeID>CC Hour</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

@@ -1,0 +1,60 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Year3\\Ser2\\OLAP\\Code\\SSAS_CHICAGO_CRIME\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4853B513-DB6B-4D29-97B3-524C9DBB6FC3}|SSAS_CHICAGO_CRIME.dwproj|E:\\Year3\\Ser2\\OLAP\\Code\\SSAS_CHICAGO_CRIME\\DW CHICAGO CRIME.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{4853B513-DB6B-4D29-97B3-524C9DBB6FC3}|SSAS_CHICAGO_CRIME.dwproj|solutionrelative:DW CHICAGO CRIME.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4853B513-DB6B-4D29-97B3-524C9DBB6FC3}|SSAS_CHICAGO_CRIME.dwproj|E:\\Year3\\Ser2\\OLAP\\Code\\SSAS_CHICAGO_CRIME\\Date.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{4853B513-DB6B-4D29-97B3-524C9DBB6FC3}|SSAS_CHICAGO_CRIME.dwproj|solutionrelative:Date.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 334,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Date.dim [Design]",
+              "DocumentMoniker": "E:\\Year3\\Ser2\\OLAP\\Code\\SSAS_CHICAGO_CRIME\\Date.dim",
+              "RelativeDocumentMoniker": "Date.dim",
+              "ToolTip": "E:\\Year3\\Ser2\\OLAP\\Code\\SSAS_CHICAGO_CRIME\\Date.dim [Design]",
+              "RelativeToolTip": "Date.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-05-15T11:00:58.139Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DW CHICAGO CRIME.cube [Design]",
+              "DocumentMoniker": "E:\\Year3\\Ser2\\OLAP\\Code\\SSAS_CHICAGO_CRIME\\DW CHICAGO CRIME.cube",
+              "RelativeDocumentMoniker": "DW CHICAGO CRIME.cube",
+              "ToolTip": "E:\\Year3\\Ser2\\OLAP\\Code\\SSAS_CHICAGO_CRIME\\DW CHICAGO CRIME.cube [Design]",
+              "RelativeToolTip": "DW CHICAGO CRIME.cube [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-05-15T00:01:29.202Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "SSAS_CHICAGO_CRIME", "SSAS_CHICAGO_CRIME.dwproj", "{4853B513-DB6B-4D29-97B3-524C9DBB6FC3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4853B513-DB6B-4D29-97B3-524C9DBB6FC3}.Development|Default.ActiveCfg = Development
+		{4853B513-DB6B-4D29-97B3-524C9DBB6FC3}.Development|Default.Build.0 = Development
+		{4853B513-DB6B-4D29-97B3-524C9DBB6FC3}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B4915D77-73FF-4EBB-9E46-C910705453AB}
+	EndGlobalSection
+EndGlobal
